@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="stop1" unicode="&#59098;" d="M378.88 609.28c28.672 0 51.2-22.528 51.2-51.2v-348.16c0-28.672-22.528-51.2-51.2-51.2S327.68 181.248 327.68 209.92v348.16c0 28.672 22.528 51.2 51.2 51.2zM645.12 609.28c28.672 0 51.2-22.528 51.2-51.2v-348.16c0-28.672-22.528-51.2-51.2-51.2S593.92 181.248 593.92 209.92v348.16c0 28.672 22.528 51.2 51.2 51.2z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="play" unicode="&#58992;" d="M366.933333 128L362.666667 640l384-256-379.733334-256z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

@@ -1,0 +1,121 @@
+.home {
+  .swiper-warp {
+    .swiper {
+      height: 300rpx;
+    }
+  }
+  .nav-bar {
+    display: flex;
+    margin: 30rpx 0 30rpx;
+    .nav-item {
+      text-align: center;
+      flex: 1;
+      .nav-icon {
+        width: 80rpx;
+        height: 80rpx;
+      }
+      .nav-text {
+        font-size: 25rpx;
+        color: #98999A;
+      }
+    }
+  }
+  .recommend-song {
+    .title-tip {
+      color: #ccc;
+    }
+    .title-wrap {
+      margin-bottom: 20rpx;
+      .title-desc {
+        font-size: 35rpx;
+      }
+      .title-more {
+        font-size: 25rpx;
+        padding: 0 20rpx;
+        height: 50rpx;
+        line-height: 50rpx;
+        border-radius: 30rpx;
+        border: 1rpx solid #ccc;
+      }
+    }
+    // 歌单列表
+    .song-menu {
+      overflow-x: auto;
+      white-space: nowrap;
+      .song-item {
+        display: inline-block;
+        width: 230rpx;
+        height: 330rpx;
+        .song-img {
+          border-radius: 20rpx;
+          width: 230rpx;
+          height: 235rpx;
+        }
+        .song-desc {
+          text-align: center;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        &:not(:last-child){
+          margin-right: 25rpx;
+        }
+      }
+    }
+    // 歌曲列表
+    .song-list {
+      overflow-x: auto;
+      white-space: nowrap;
+      .song-item {
+        display: inline-block;
+        width: 650rpx;
+        // height: 330rpx;
+        .song-img {
+          vertical-align: top;
+          border-radius: 10rpx;
+          width: 130rpx;
+          height: 130rpx;
+        }
+        .song-desc {
+          margin-left: 20rpx;
+          display: inline-block;
+          .song-title {
+            padding-top: 25rpx;
+            // padding-top: 25rpx;
+            .song-name {
+              color: #000;
+            }
+            .song-author {
+              color: #ccc;
+            }
+          }
+          .song-brief {
+            color: #ccc;
+          }
+          .song-play {
+            padding-top: 15rpx;
+            width: 80rpx;
+            height: 100rpx;
+            line-height: 100rpx;
+            text-align: right;
+            .play-wrap {
+              text-align: center;
+              display: inline-block;
+              border-radius: 50%;
+              border: 3rpx solid #ccc;
+              width: 50rpx;
+              height: 50rpx;
+              line-height: 50rpx;
+            }
+            .icon-play,.icon-stop1 {
+              font-size: 30rpx;
+            }
+          }
+        }
+        &:not(:last-child){
+          margin-right: 25rpx;
+        }
+      }
+    }
+  }
+}

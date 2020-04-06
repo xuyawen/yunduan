@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot?t=1586177553390'); /* IE9 */
+  src: url('iconfont.eot?t=1586177553390#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAALIAAsAAAAABqQAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqBDIEdATYCJAMMCwgABCAFhG0HNRviBciemjwpCSigQGVm4QGwQPHwtd/rubv7XhAckkQX9lEEKgpoPFhqK11djeh4NuL/71z+QxYmzx/LIStAV0haTpbmYApZub0Zie5AbXJucroVkN4AX3e+fOLe8V9AgcxnWS5r29jj/FMXhnFAgY45yYokAG/QXcSI5KvNBFoNKwvsLKxtQlwBegXi2tAkiFtBRckyzUI9MrFAfFNpTjfpE8BX/v34D82Ig6TKAAbuXc2rMPUr/MtCx41jp9Ts9Tw7smlkLAKFOB9NHgqJjBPSqg/PF9aKkM6K+D5c3hrrl/7xElEDKG8Hs2Eq8SuMRQS/2BUSyKBGhXFgLWT6H1NEFKPRkJbt97f6DzvD4c5gsD243+z1Dm4lI6n0scIGKfuSfwTeLjffncsiSShR9bh1DvkZ3LS7xUAg6abh9jnkHzXgEkD+TIH8Aul/8Fgg2P1x/GZu7D+eCgP8fF0scPV6Y/NXXMFfU6ysKq0KmHKp5Vjeu7IRo0BCa+vRALy9fvYbB1bHCc2WIkPSZAhZs0miMIuotFlCrdk6Wi1YnN6mDxcSJQHMuwgQur0g6fQdWbcvojDfqAz6Q607Qmi1H6UF20yHkZzlWBJYRfIhMhTqEmQRSVG5jrWWLXFTxbnbmHtGBDWqdTeziF3MzxjitbWmEAQRTh20EGyHbZsixqmJFVHVhWAjtRoZe1NVoQ4kbeMwiYCpENkhxKCgXIQ2FpLe59dhmhabhM+wNuLbMM5jtI40VNVXEIt6dxXrW67xtGmaBIFACI5yIAtBO8xmoxA23s6EKYQqfUecGVGDtchaffV+o/N/m6AVWClHMBAKhKE8CcrCzJYOAQAAAA==') format('woff2'),
+  url('iconfont.woff?t=1586177553390') format('woff'),
+  url('iconfont.ttf?t=1586177553390') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1586177553390#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  display: inline-block;
+  /* 以下的 font 与上面 @font-face 的 font-family 要一致*/
+  font: normal normal normal 14px/1 iconfont;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-stop:before {
+  content: "\e604";
+}
+
+.icon-play:before {
+  content: "\e670";
+}
+
