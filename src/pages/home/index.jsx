@@ -42,9 +42,13 @@ export default class Home extends Component {
             indicatorDots
             autoplay
           >
-            <SwiperItem>1</SwiperItem>
-            <SwiperItem>2</SwiperItem>
-            <SwiperItem>3</SwiperItem>
+            {
+              [1, 2, 3].map(v => (
+                <SwiperItem key={v}>
+                  <Image className='swiper-img' src={'../../assets/image/logo.jpg'}></Image>
+                </SwiperItem>
+              ))
+            }
           </Swiper>
         </View>
         {/* 导航栏 */}
@@ -101,12 +105,12 @@ export default class Home extends Component {
                         <Text className='song-name'>You Don't Know Me</Text>
                         <Text className='song-author'> - Ofenbach</Text>
                       </View>
-                      <View className='song-brief'>生活明朗 万物可爱</View>
+                      <View className='song-brief'>Know Me</View>
                     </View>
                     <View className='song-play fr'>
                       <View className='play-wrap'>
                         <Text className='icon iconfont icon-play' />
-                        {/* <Text className='icon iconfont icon-stop1' /> */}
+                        {/* <Text className='icon iconfont icon-stop' /> */}
                       </View>
                     </View>
                   </View>

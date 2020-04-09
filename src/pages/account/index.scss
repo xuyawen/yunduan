@@ -1,0 +1,82 @@
+.account {
+  position: relative;
+  .user-banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 260rpx;
+    background-image: url('../../assets/image/logo.jpg');
+    background-clip: content-box;
+    background-origin: content-box;
+    background-position: center;
+    filter: grey(50%);
+    z-index: 1;
+  }
+  .user-detail {
+    position: absolute;
+    top: 235rpx;
+    width: 100%;
+    padding: 30rpx;
+    border-top-left-radius: 30rpx;
+    border-top-right-radius: 30rpx;
+    background-color: #fff;
+    z-index: 2;
+    .user-info {
+      .user-head {
+        .head-img {
+          width: 50rpx;
+          height: 50rpx;
+          border-radius: 50%;
+        }
+      }
+      .user-desc {
+        .user-name {
+          height: 50rpx;
+          line-height: 50rpx;
+          margin-left: 10rpx;
+          color: #000;
+        }
+      }
+    }
+    .user-operate {
+      display: flex;
+      margin-top: 20rpx;
+      text-align: center;
+      .operate-item {
+        flex: 1;
+        &+.operate-item {
+          margin-left: 20rpx;
+        }
+        .icon {
+          font-size: 50rpx;
+          width: 100%;
+          height: 300rpx;
+        }
+      }
+    }
+    .user-serve {
+      .serve-item {
+        padding: 10rpx 0;
+        .serve-text {
+          float: left;
+          height: 50rpx;
+          line-height: 50rpx;
+          width: calc(100% - 50rpx);
+          border-bottom: 1rpx solid #ccc;
+        }
+        .icon {
+          float: left;
+          width: 40rpx;
+          margin-right: 10rpx;
+          vertical-align: middle;
+          font-size: 40rpx;
+        }
+      }
+    }
+    .mine-title {
+      font-size: 20rpx;
+      padding: 20rpx 0;
+      border-bottom: 1rpx solid #ccc;
+    }
+  }
+}

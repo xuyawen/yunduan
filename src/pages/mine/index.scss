@@ -1,0 +1,151 @@
+.mine {
+  position: relative;
+  .mine-detail {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400rpx;
+    background-image: url('../../assets/image/logo.jpg');
+    background-clip: content-box;
+    background-origin: content-box;
+    background-position: center;
+    filter: grey(50%);
+    z-index: 1;
+    .mine-info {
+      padding: 80rpx 30rpx 80rpx;
+      .mine-head {
+        .head-img {
+          width: 80rpx;
+          height: 80rpx;
+          border-radius: 50%;
+        }
+      }
+      .mine-desc {
+        margin-left: 10rpx;
+        .mine-name {
+          color: #000;
+        }
+        .mine-level {
+          position: relative;
+          font-size: 20rpx;
+          .icon-Lv {
+            font-size: 20rpx;
+            margin-right: 5rpx;
+          }
+          .mine-num {
+            position: absolute;
+            left: 28rpx;
+            top: 3rpx;
+          }
+        }
+      }
+    }
+    .mine-nav {
+      display: flex;
+      .nav-item {
+        font-size: 30rpx;
+        flex: 1;
+        text-align: center;
+        color: #fff;
+      }
+      .icon {
+        font-size: 45rpx;
+      }
+    }
+  }
+  .mine-music {
+    position: absolute;
+    top: 370rpx;
+    width: 100%;
+    padding: 30rpx;
+    // height: 800rpx;
+    border-top-left-radius: 30rpx;
+    border-top-right-radius: 30rpx;
+    background-color: #fff;
+    z-index: 2;
+    .my-music {
+      .mine-title {
+        margin-top: 0;
+      }
+      .quick-entry {
+        display: flex;
+        text-align: center;
+        .quick-item {
+          flex: 1;
+          &+.quick-item {
+            margin-left: 20rpx;
+          }
+          .cover-img {
+            border-radius: 10rpx;
+            width: 100%;
+            height: 300rpx;
+          }
+        }
+      }
+    }
+    .recently-played {
+      .played-list {
+        height: 100rpx;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        .played-item {
+          display: inline-block;
+          .played-img {
+            border-radius: 10rpx;
+            width: 100rpx;
+            height: 100rpx;
+          }
+          .played-desc {
+            width: 150rpx;
+            padding-left: 10rpx;
+            padding-top: 15rpx;
+            .music-name {
+              font-size: 25rpx;
+              color: #000;
+            }
+            .continue-play {
+              font-size: 20rpx;
+              color: #ccc;
+            }
+          }
+        }
+      }
+    }
+    .mine-song {
+      .mine-list {
+        .mine-title {
+          margin-right: 30rpx;
+        }
+      }
+      .song-list {
+        height: 100rpx;
+        .song-item {
+          width: 50%;
+          display: inline-block;
+          .song-img {
+            border-radius: 10rpx;
+            width: 100rpx;
+            height: 100rpx;
+          }
+          .song-desc {
+            width: 150rpx;
+            padding-left: 10rpx;
+            padding-top: 15rpx;
+            .song-name {
+              font-size: 25rpx;
+              color: #000;
+            }
+            .song-num {
+              font-size: 20rpx;
+              color: #ccc;
+            }
+          }
+        }
+      }
+    }
+    .mine-title {
+      margin: 20rpx 0;
+    }
+  }
+}

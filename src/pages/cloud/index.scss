@@ -1,0 +1,41 @@
+.cloud {
+  .square-list {
+    padding: 15rpx 30rpx;
+    .list-left {
+      .news-item {
+        margin-right: 3%;
+      }
+    }
+    .list-right {
+      .news-item {
+        margin-left: 3%;
+      }
+    }
+    .list {
+      width: 50%;
+      display: inline-block;
+      .news-item {
+        .news-img {
+          width: 100%;
+        }
+        .news-desc {
+          .news-text {
+
+          }
+          .news-more {
+
+            .news-author {
+
+            }
+            .news-like {
+
+            }
+            .icon-more {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

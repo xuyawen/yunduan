@@ -1,3 +1,5 @@
+/* eslint-disable */
+const path = require('path');
 const config = {
   projectName: 'yunduan',
   date: '2020-4-5',
@@ -27,6 +29,9 @@ const config = {
         'moduleName': 'babel-runtime'
       }]
     ]
+  },
+  alias: {
+    '@/components': path.resolve(__dirname, '..', 'src')
   },
   plugins: [],
   defineConstants: {

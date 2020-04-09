@@ -2,8 +2,8 @@ import Taro, { Component } from '@tarojs/taro'
 import Index from './pages/index'
 
 import './app.scss'
-// import './assets/icon/iconfont.js';
 import './assets/icon/iconfont.css';
+// import './assets/icon/iconfont.js';
 
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：

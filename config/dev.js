@@ -21,5 +21,7 @@ module.exports = {
       }
     }
   },
-  h5: {}
+  h5: {
+    esnextModules: ['taro-ui']
+  }
 }
